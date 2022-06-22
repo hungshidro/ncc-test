@@ -76,6 +76,12 @@
     }
 }
 
+@media (max-width: 767px){
+    .main{
+        flex-direction: column;
+    }
+}
+
 .footer{
     width: 100%;
     min-height: 40px;

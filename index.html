@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/sidebar.css">
+    <!-- <link rel="stylesheet" href="./assets/js/sidebar.js"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -20,13 +22,13 @@
     <div class="main">
         <aside class="sidebar ">
             <div class="sidebar__container">
-                <div class="sidebar__toggle">
+                <div id="toggle" class="sidebar__toggle">
                     <div class="bar"></div>
                     <div class="bar"></div>
                     <div class="bar"></div>
                 </div>
                 <nav class="navigation">
-                    <ul class="navigation__list">
+                    <ul>
                         <li class="navigation--header navigation--item">
                             <a href="" class="navigation__link navigation--header">Home</a>
                         </li>
@@ -46,7 +48,29 @@
                     </ul>
                 </nav>
             </div>
+            <div id="sidebar-mobile" class="sidebar--mobile">
+                <ul>
+                    <li class="navigation--header navigation--item">
+                        <a href="" class="navigation__link navigation--header">Home</a>
+                    </li>
+                    <div class="sidebar__line"></div>
+                    <li class="navigation--item">
+                        <a href="" class="navigation__link">Services</a>
+                    </li>
+                    <li class="navigation--item">
+                        <a href="" class="navigation__link">News</a>
+                    </li>
+                    <li class="navigation--item">
+                        <a href="" class="navigation__link">Blog</a>
+                    </li>
+                    <li class="navigation--item">
+                        <a href="" class="navigation__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </aside>
+
+        
 
         <main class="content">
             <header class="header">
